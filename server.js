@@ -713,3 +713,6 @@ function populateTemplate(template, data) {
   }
   return template;
 }
+
+
+module.exports = app
