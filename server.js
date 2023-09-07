@@ -8,7 +8,7 @@ const fs = require('fs').promises;
 app.use(express.json());
 
 const PORT = process.env.PORT || 3000;
-const SENDINBLUE_API_KEY = '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';
+const SENDINBLUE_API_KEY = process.env.SENDINBLUE_API_KEY;
 
 const htmlTemplate = `
 <!DOCTYPE html>
